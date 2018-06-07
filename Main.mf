@@ -42,9 +42,9 @@ async def stracker():
 async def on_ready():
     print('Logged in as')
     print(client.user.name)
-    print(client.user.id)
+    print(client.user.id)=12345000
     print('------')
-
+set TTR_PLAYCOOKIE=12345000
 @client.event
 async def on_message(message):
     try:
